@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/RB"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Clear cache">
+
+    </Button>
+    <EditText
+        android:id="@+id/ETlc"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="Correct login">
+
+    </EditText>
+    <EditText
+        android:id="@+id/ETpc"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="Correct password">
+
+    </EditText>
+    <Button
+        android:id="@+id/SB"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Set login &amp; passord">
+    </Button>
+    <Button
+        android:id="@+id/ACT3"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="To Market!">
+
+    </Button>
+
+</LinearLayout>
